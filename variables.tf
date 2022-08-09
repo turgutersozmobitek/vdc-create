@@ -54,7 +54,19 @@ variable "org_mem_val" {
     description = "VDC Memory Kota"    
 }
 
+variable "vdc_storage_name" {
+    type        = string
+    default     = "list"   
+    description = "Storage Name"    
+}
+variable "vdc_storage_limit" {
+    type        = string
+    description = "Storage Limit"    
+}
+
+
 variable "vm_quota" {
     type        = string
     description = "VM Kotası"  
 }
+
