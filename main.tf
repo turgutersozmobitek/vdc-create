@@ -30,6 +30,4 @@ resource "vcd_org_vdc" "vdc-name" {
   enable_fast_provisioning = false
   delete_force = true
   delete_recursive = true 
-
-  depends_on = [vcd_org.org-name]
 }
