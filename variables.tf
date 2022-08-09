@@ -64,6 +64,11 @@ variable "vdc_storage_limit" {
     description = "Storage Limit"    
 }
 
+variable "vdc_net_pool" {
+    type        = string
+    default     = "list"
+    description = "VDC Network Pool" 
+}
 
 variable "vm_quota" {
     type        = string
