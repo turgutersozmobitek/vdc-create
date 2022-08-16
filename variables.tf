@@ -22,6 +22,7 @@ variable "cd_vdcadres" {
 variable "org_name" {
     type        = string
     description = "Organizasyon İsmi"
+    default     = "list"
 }
 
 variable "vdc_name" {
