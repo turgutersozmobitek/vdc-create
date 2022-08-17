@@ -2,77 +2,77 @@
 
 variable "vcenter_name" {
     type        = string
-    description = "vCenter Name"
+    description = "vCenter Name*"
 }
 
 variable "cd_username" {
     type        = string
-    description = "CloudDirector UserName"
+    description = "CloudDirector UserName*"
 }
 variable "cd_password" {
     type        = string
-    description = "CloudDirector Password"
+    description = "CloudDirector Password*"
 }
 
 variable "cd_vdcadres" {
     type        = string
-    description = "CloudDirector Adresi"
+    description = "CloudDirector Adresi*"
 }
 
 variable "org_name" {
     type        = string
-    description = "Organizasyon İsmi"
+    description = "Organizasyon İsmi*"
     default     = "list"
 }
 
 variable "vdc_name" {
     type        = string
-    description = "VDC Name"
+    description = "VDC Name*"
 
 }
 
 variable "vdc_description" {
     type        = string
-    description = "VDC Description"
+    description = "VDC Description*"
 }
 
 variable "vdc_pvdc_name" {
     type        = string
     default     = "list"
-    description = "Provider VDC Adı:"
+    description = "Provider VDC*"
 }
 
 
 variable "org_cp_val" {
     type        = string
     default     = "list"
-    description = "VDC Cpu Kota"    
+    description = "VDC Cpu Kota*"    
 }    
 
 variable "org_mem_val" {
     type        = string
     default     = "list"   
-    description = "VDC Memory Kota"    
+    description = "VDC Memory Kota*"    
 }
 
 variable "vdc_storage_name" {
     type        = string
     default     = "list"   
-    description = "Storage Name"    
+    description = "Storage Name*"    
 }
 variable "vdc_storage_limit" {
     type        = string
-    description = "Storage Limit"    
+    description = "Storage Limit*"    
 }
 
 variable "vdc_net_pool" {
     type        = string
     default     = "list"
-    description = "VDC Network Pool" 
+    description = "VDC Network Pool*" 
 }
 
 variable "vm_quota" {
     type        = string
-    description = "VM Kotası"  
+    description = "VM Kotası*"  
 }
 
